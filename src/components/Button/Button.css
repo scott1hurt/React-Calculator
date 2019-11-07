@@ -1,0 +1,33 @@
+.Button {
+    width: 25%;
+    height: 100%;
+    font-size: 20pt;
+    background-color: white;
+    outline: none;
+    border: 1px solid transparent;
+    transition: all .2s;
+}
+
+.Button:hover {
+    background-color: darkblue;
+    color: white;
+
+}
+
+.Button:active {
+    transform: scale (.95);
+}
+
+.Button-primary {
+    color: rebeccapurple;
+}
+
+.Button-operator {
+    color: orange;
+}
+
+.Button-large {
+    color:white;
+    background-color: red;
+    width:50%;
+}

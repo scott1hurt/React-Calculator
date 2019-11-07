@@ -12,7 +12,7 @@ class Calculator extends Component {
         return (
             <div className="Calculator">
             <Screen />
-
+            <Keypad />
             </div>
            
         );
