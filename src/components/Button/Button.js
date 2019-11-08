@@ -17,7 +17,7 @@ render() {
         classes += ' Button-' + this.props.type;
     }
       return (
-            <button className={classes} onCLick={this.props.onButtonPress}>
+            <button className={classes} onClick={this.props.onButtonPress}>
                 
                     {this.props.children}
             </button>
