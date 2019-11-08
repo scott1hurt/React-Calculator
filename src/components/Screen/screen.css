@@ -1,10 +1,12 @@
 .Screen {
     height: 25vh;
     width: 100%;
-    background-color: darkblue;
-    color: white;
+    background-color:lightgoldenrodyellow;
+    color: grey;
     overflow:hidden;
     padding: 0 10px;
     white-space:nowrap;
     box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }

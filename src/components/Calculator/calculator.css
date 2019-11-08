@@ -1,7 +1,10 @@
 .Calculator {
-    background-color: white;
+    background-color:lightgray;
     height: 80vh;
     width: 25%; 
+    border-radius: 10px;
+    
+
     -webkit-box-shadow: 10px 54px 58px -27px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 54px 58px -27px rgba(0,0,0,0.75);
 box-shadow: 10px 54px 58px -27px rgba(0,0,0,0.75);
