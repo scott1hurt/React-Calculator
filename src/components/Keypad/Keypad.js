@@ -10,45 +10,45 @@ class Keypad extends Component {
             <div className='Keypad'>
             {/* row 1 */}
             <KeypadRow>
-                <Button type= 'primary'>C</Button>
-                <Button>&larr;</Button>
-                <Button type= 'operator'>%</Button>
-                <Button type= 'operator'>/</Button>
+                <Button onButtonPress={this.props.onButtonPress} type= 'primary'>C</Button>
+                <Button onButtonPress={this.props.onButtonPress}type= 'primary'>&larr;</Button>
+                <Button onButtonPress={this.props.onButtonPress}type= 'operator'>%</Button>
+                <Button onButtonPress={this.props.onButtonPress}type= 'operator'>/</Button>
                 
                 </KeypadRow>
 
             {/* row 2 */}
             <KeypadRow>
-                <Button type= 'primary'>7</Button>
-                <Button>8</Button>
-                <Button>9</Button>
-                <Button type= 'operator'>*</Button>
+                <Button onButtonPress={this.props.onButtonPress}type= 'primary'>7</Button>
+                <Button onButtonPress={this.props.onButtonPress}>8</Button>
+                <Button onButtonPress={this.props.onButtonPress}>9</Button>
+                <Button onButtonPress={this.props.onButtonPress}type= 'operator'>*</Button>
 
             </KeypadRow>
 
             {/* row 3 */}
             <KeypadRow>
-                <Button type= 'primary'>4</Button>
-                <Button>5</Button>
-                <Button>6</Button>
-                <Button type= 'operator'>-</Button>
+                <Button onButtonPress={this.props.onButtonPress}type= 'primary'>4</Button>
+                <Button onButtonPress={this.props.onButtonPress}>5</Button>
+                <Button onButtonPress={this.props.onButtonPress}>6</Button>
+                <Button onButtonPress={this.props.onButtonPress}type= 'operator'>-</Button>
 
             </KeypadRow>
 
             {/* row 4 */}
             <KeypadRow>
-                <Button type= 'primary'>1</Button>
-                <Button>2</Button>
-                <Button>3</Button>
-                <Button type='operator'>+</Button>
+                <Button onButtonPress={this.props.onButtonPress}type= 'primary'>1</Button>
+                <Button onButtonPress={this.props.onButtonPress}>2</Button>
+                <Button onButtonPress={this.props.onButtonPress}>3</Button>
+                <Button onButtonPress={this.props.onButtonPress}type='operator'>+</Button>
 
             </KeypadRow>
 
             {/* row 5 */}
             <KeypadRow>
-                <Button type= 'primary'>0</Button>
-                <Button>.</Button>
-                <Button type= 'large'>=</Button>
+                <Button onButtonPress={this.props.onButtonPress}type= 'primary'>0</Button>
+                <Button onButtonPress={this.props.onButtonPress}>.</Button>
+                <Button onButtonPress={this.props.onButtonPress}type= 'large'>=</Button>
 
             </KeypadRow>
 
